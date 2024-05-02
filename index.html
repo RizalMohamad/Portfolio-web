@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RIZAL WEBSITE</title>
+
+    <!-- Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Link Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet"/>
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Link Favicon -->
+    <link rel="icon" href="asset/nintendo-gamecube.svg" >
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
+      <a class="navbar-brand">R<span>M</span></a>
+
+      <button class="navbar-toggler btn-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-menu" id="navbarNav">
+        <div class="navbar-content">
+          <div class="navbar-list">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#tools">Tools</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-tagline">
+        <div>
+          <h1>Hi RevoU Student!!</h1>
+          <h1>I'M <span>Mohamad Rizal Prasetyo</span></h1>
+        </div>
+        <div class="hero-prof">
+          <div class="hero-text">
+            <span></span>
+            <!-- <ul class="hero-run">
+              <li><span>Data Analys</span></li>
+              <li><span>Web Development</span></li>
+              <li><span>Manchester City fans</span></li>
+              <li><span>Pendaki Gunung</span></li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      <div>
+        <a href="#about" class="hero-link">Know me better</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="about-tagline">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-des">
+          <div class="logo">
+            <img src="asset/logo-unipi.png" alt="logo-kampus" class="logo-univ">
+          </div>
+          <div class="deskripsi">
+            <p>
+              I am Rizal, a 6th semester Information Technology student at Insan Pembangunan Indonesia University. I currently live in Tangerang, Banten. I am interested in web development, and hope to increase my programming knowledge by taking part in the RevoU class.<br><br>
+              ✨Thank you for visiting my page!✨
+            </p>
+          </div>
+          <div class="photo">
+            <img src="asset/man-city.png" alt="" class="photo-pict">
+          </div>
+        <div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools">
+      <div class="container">
+        <div class="tools-tagline">
+          <h2>Tools Programing</h2>
+        </div>
+        <div class="card-tools">
+          <div class="card">
+            <div>
+              <div class="card-img">
+                <img src="asset/html.png" class="card-img-top" alt="html">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">
+                  HTML (Hypertext Markup Language) is a markup language used to create the structure and content of web pages.
+                </p>
+                <ul class="card-list">
+                  <li>h1, h2, h3, p, ul, li</li>
+                  <li>div, span, link, form</li>
+                  <li>nav, section, footer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="asset/css.jpg" class="card-img-top" alt="css">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">
+                CSS (Cascading Style Sheets) is a language used to organize the appearance and style of web pages.
+              </p>
+              <ul class="card-list">
+                <li>margin, padding, border, background</li>
+                <li>display, position, z-index, opacity</li>
+                <li>transform, transition, animation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="asset/js.png" class="card-img-top" alt="js">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Javascript</h5>
+              <p class="card-text">
+                JavaScript is a programming language that is often used to create dynamic and responsive interactions on web pages.
+              </p>
+              <ul class="card-list">
+                <li>let, const, array, object, if else, for</li>
+                <li>function, for in, for of, foreach</li>
+                <li>map, DOM, async, await</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <!-- <div class="container"> -->
+        <div class="contact-tagline">
+          <h2>Get in Touch!</h2>
+        </div>
+        <div class="form-hero">
+          <form>
+            <div class="form-heading">
+              <h4>Contact Form</h4>
+            </div>
+            <div class="form-name">
+              <div class="form-input">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" required placeholder="Your Fistname">
+              </div>
+              <div class="form-input">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" required placeholder="Your Lastname">
+              </div>
+            </div>
+            <div class="form-input">
+              <label for="email">Email</label>
+              <input type="email" id="email" required placeholder="Your Email">
+            </div>
+            <div class="form-input">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-footer">
+              <button type="submit" class="form-button">Submit</button>
+              <div class="form-link">
+                <a href="https://www.instagram.com/_rizaa.l?igsh=MTZuaHF1emgwb2FiMw=="><img src="asset/icons8-instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/mohamad-rizal-prasetyo-792350242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="asset/icons8-linkedin.svg" alt=""></a>
+                <a href="https://github.com/RizalMohamad"><img src="asset/icons8-github.svg" alt=""></a>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <hr>
+            <p class="text-center">©️ 2024 Rizal Mohamad - Portfolio <span><img src="asset/victory-hand (1).svg" alt=""></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
